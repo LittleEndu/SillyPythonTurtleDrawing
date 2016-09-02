@@ -11,7 +11,7 @@ def draw(n,s=2,l=10):
 			j=i
 		else:
 			j+=i
-			lt(int(j[0])*l)
+			lt(int(j[0])*10)
 			fd(int(j[1])*l)
 			if isdown():
 				pu()
